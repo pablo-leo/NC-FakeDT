@@ -15,11 +15,15 @@ Alternatively you can execute the 'install_dependecies.sh' file which installs a
 
 # Execution
 To execute the code, just open a terminal inside the root directory of the project and execute the python file 'fake_trump.py', including (if wanted), some of the following flags.
- - --pop     (population size)
- - --it      (number of iterations)
- - --cross   (crossover rate)
- - --mut     (mutation rate)
- - --top     (topics, separated by spaces)
+ ```bash
+ --pop     (population size)
+ --it      (number of iterations)
+ --cross   (crossover rate)
+ --mut     (mutation rate)
+ --top     (topics, separated by spaces)
+ ```
  
 Execution example:
-$ python fake_trump.py --pop 200 --it 10 --cross 0.3 --mut 0.1 --top America news
+```bash
+python fake_trump.py --pop 200 --it 10 --cross 0.3 --mut 0.1 --top America news
+```
